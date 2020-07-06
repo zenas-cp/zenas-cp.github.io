@@ -25,7 +25,9 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n <span class="string">"文章标题"</span></span><br><span class="line">$ hexo new <span class="string">"文章标题"</span></span><br></pre></td></tr></table></figure>
 <p>也可以直接在 \Hexo\source_posts 目录下右键鼠标新建文本文档，改后缀为 .md 即可</p>
 <h2 id="二、用编辑器编写文章"><a href="#二、用编辑器编写文章" class="headerlink" title="二、用编辑器编写文章"></a>二、用编辑器编写文章</h2><p>将写好的文章（.md文件）保存到 \Hexo\source_posts 文件夹下即可<br>用编辑器写好文章后，用以下命令将其推送到服务器上</p>
-<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo generate</span><br><span class="line"></span><br><span class="line"><span class="comment">### 部署到远程站点</span></span><br><span class="line">````bash</span><br><span class="line">$ hexo d</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>或者将两个命令合二为一输入以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
