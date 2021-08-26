@@ -35,4 +35,131 @@
 <p>站点配置文件：D:\Myblog_config.yml<br>主题配置文件：D:\Myblog\themes\NextT_config.yml</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>文章名称</title>
+    <url>/2021/08/26/head%E7%A4%BA%E4%BE%8B/</url>
+    <content><![CDATA[<p>这里是摘要</p>
+<a id="more"></a>
+
+<p>这里是正文</p>
+<p>注意：description 和 <!-- more --> 方式显示摘要二选一即可，部分主题不支持description，每个配置英文冒号后面要空一格，不同主题配置有所差异，具体要参考主题文档</p>
+]]></content>
+      <categories>
+        <category>文章分类</category>
+      </categories>
+      <tags>
+        <tag>文章标签一</tag>
+        <tag>文章标签二</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown样式测试</title>
+    <url>/2021/08/27/%E6%A0%B7%E5%BC%8F%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p><strong>加粗</strong>、<em>倾斜</em>、<u>下划线</u>、<del>删除线</del>、==高亮==、上标^上标^、下标<del>下标</del>、<a href="链接">链接</a>、[链接][链接]、<code>代码</code>、脚注 [^1]</p>
+<p>臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。先帝不以臣卑鄙，猥自枉屈，三顾臣于草庐之中，咨臣以当世之事，由是感激，遂许先帝以驱驰。后值倾覆，受任于败军之际，奉命于危难之间，尔来二十有一年矣。</p>
+<p><strong>ある日</strong>、<em>おじいさん</em>は<u>山</u>へ<code>柴刈り</code>に、<del>おばあさん</del>は川へ洗濯に出かけました。すると川の上の方から、大きな桃が流れて来ました。おばあさんは喜んでその桃を拾い上げると、家に持ち帰りました。</p>
+<p><strong>Lorem</strong> <u>ipsum</u> <del>dolor</del> ==sit amet==, consectetur^sed^ adipiscing<del>sed</del> elit [do eiusmod](tempor incididunt) <code>ut labore</code> et dolore magna aliqua.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<blockquote>
+<h6 id="标题六"><a href="#标题六" class="headerlink" title="标题六"></a>标题六</h6><p><strong>加粗</strong>、<em>倾斜</em>、<u>下划线</u>、<del>删除线</del>、==高亮==、上标^上标^、下标<del>下标</del>、<a href="链接">链接</a>、[链接][链接]、<code>代码</code>、脚注 [^1]</p>
+<blockquote>
+<p>臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。</p>
+<blockquote>
+<p><em>ある日、おじいさんは山へ柴刈りに、おばあさんは川へ洗濯に出かけました</em>。</p>
+</blockquote>
+</blockquote>
+<h5 id="标题五"><a href="#标题五" class="headerlink" title="标题五"></a>标题五</h5><p><strong>Lorem</strong> <u>ipsum</u> <del>dolor</del> ==sit amet==, consectetur^sed^ adipiscing<del>sed</del> elit [do eiusmod](tempor incididunt) <code>ut labore</code> et dolore magna &amp; aliqua.</p>
+</blockquote>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><img src="https://i.loli.net/2021/04/17/2Q7tpYqLWledUJC.png" >
+
+<p>块元素：</p>
+<ul>
+<li>无序列表</li>
+<li>充分等等<ul>
+<li>无序列表的递进</li>
+<li>仍然会好久哦经济<ol>
+<li>无序列表下的有序列表</li>
+<li>日日日动词<ol>
+<li>有序列表下的递进</li>
+<li>顶顶顶方法<ul>
+<li><input disabled="" type="checkbox"> 待办事项</li>
+<li><input checked="" disabled="" type="checkbox"> 待办事项</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<blockquote>
+<p>臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。</p>
+<blockquote>
+<p><em>ある日、おじいさんは山へ柴刈りに、おばあさんは川へ洗濯に出かけました</em>。</p>
+</blockquote>
+</blockquote>
+<ul>
+<li><input disabled="" type="checkbox"> <p>哈哈哈哈哈哈哈</p>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <p><em>ももたろう</em></p>
+</li>
+<li><p>无序列表</p>
+</li>
+<li><p>充分等等</p>
+<ul>
+<li>无序列表的递进</li>
+<li>仍然会好久哦经济<ol>
+<li>无序列表下的有序列表</li>
+<li>日日日动词<ol>
+<li>有序列表下的递进<ol>
+<li>顶顶顶方法</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">titile</span>&gt;</span>this is a html file<span class="tag">&lt;/<span class="name">titile</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"head title"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"para highlight"</span>&gt;</span>highlight paragraph<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">alt</span>=<span class="string">"content"</span> <span class="attr">width</span>=<span class="string">"520px"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<hr width=50%>
+
+<hr width=30%>
+
+<center>居中文字</center>
+
+<p>其他内容：</p>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="right"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>** 正常显示星号 **</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件 a&#125;</span><br><span class="line">    C --&gt;|a&#x3D;1| D[结果 1]</span><br><span class="line">    C --&gt;|a&#x3D;2| E[结果 2]</span><br><span class="line">    F[横向流程图]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[方形] --&gt; B(圆角)</span><br><span class="line">B --&gt; C&#123;条件 a&#125;</span><br><span class="line">C --&gt; |a&#x3D;1| D[结果 1]</span><br><span class="line">C --&gt; |a&#x3D;2| E[结果 2]</span><br><span class="line">F[竖向流程图]</span><br></pre></td></tr></table></figure>
+
+<p>[^1]: 脚注。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+]]></content>
+  </entry>
 </search>
